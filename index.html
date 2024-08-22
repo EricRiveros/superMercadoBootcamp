@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Natassja Jaramillo" />
+    <meta name="description" content="descripcion del proyecto" />
+    <meta name="keyword" content="HTML,CSS,Javascript,Bootstrap,Jquery" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <!-- Contenido de la cabecera -->
+    </header>
+
+    <nav>
+      <!-- barra de navegacion -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav d-flex justify-content-center align-items-center"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Acerca De</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- FIN BARRA NAVEGACION -->
+    </nav>
+
+    <main>
+      <section>
+   
+ 
+     
+        <!-- IMAGENES -->
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <!-- barra lateral -->
+          <div
+            class="d-flex flex-column flex-shrink-0 p-3 text-white bg-success"
+            style="width: 280px"
+          >
+            <a
+              href="/"
+              class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none"
+            >
+              <svg class="bi me-2" width="40" height="32">
+                <use xlink:href="#bootstrap"></use>
+              </svg>
+              <span class="fs-4">Categorias</span>
+            </a>
+            <hr />
+            <ul class="nav flex-column  ">
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white active verduras" aria-current="page">
+                  <svg class="bi me-2" width="16" height="16">
+                    <use xlink:href="#home"></use>
+                  </svg>
+                  Frutas y Verduras
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <svg class="bi me-2" width="16" height="16">
+                    <use xlink:href="#speedometer2"></use>
+                  </svg>
+                  Despensa
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <svg class="bi me-2" width="16" height="16">
+                    <use xlink:href="#table"></use>
+                  </svg>
+                  Lacteos
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <svg class="bi me-2" width="16" height="16">
+                    <use xlink:href="#grid"></use>
+                  </svg>
+                  Carniceria
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <svg class="bi me-2" width="16" height="16">
+                    <use xlink:href="#people-circle"></use>
+                  </svg>
+                  Otros
+                </a>
+              </li>
+            </ul>
+            <hr />
+          </div>
+          <!-- FIN DE MENU LATERAL -->
+           <!-- row 2 -->
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col frutas">
+              <div class="card">
+                <img src="img/manzana.jpg" id="manzana1" class="card-img-top imagenes " alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Manzana</h5>
+                  <p class="card-text">Precio:</p>
+                </div>
+              </div>
+            </div>
+            <div class="col frutas">
+              <div class="card">
+                <img src="img/platano.jpg" class="card-img-top imagenes " alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Platano</h5>
+                  <p class="card-text">Precio:</p>
+                </div>
+              </div>
+            </div>
+            <div class="col frutas">
+              <div class="card">
+                <img src="img/tomate.jpg" class="card-img-top imagenes " alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Tomate</h5>
+                  <p class="card-text">Precio:</p>
+                </div>
+              </div>
+            </div>
+            <div class="col frutas">
+              <div class="card">
+                <img src="img/palta.webp" class="card-img-top imagenes " alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Palta</h5>
+                  <p class="card-text">Precio:</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Fin Verduras -->
+            <!-- Carnes -->
+            <div class="col carnes">
+              <div class="card">
+                <img
+                  src="img/carne-molida.webp"
+                  class="card-img-top imagenes"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Carne Molida</h5>
+                  <p class="card-text">Precio:</p>
+                </div>
+              </div>
+            </div>
+            <div class="col carnes">
+              <div class="card">
+                <img src="img/pollo.webp" class="card-img-top imagenes" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Pollo</h5>
+                  <p class="card-text">Precio:</p>
+                </div>
+              </div>
+            </div>
+         
+          <!-- lacteos -->
+          <div class="col lacteos">
+            <div class="card">
+              <img src="img/manjarate.webp" class="card-img-top imagenes" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Leche</h5>
+                <p class="card-text">Precio:</p>
+              </div>
+            </div>
+          </div>
+          <div class="col lacteos">
+            <div class="card">
+              <img src="img/milo.webp" class="card-img-top imagenes" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Milo/h5>
+                <p class="card-text">Precio:</p>
+              </div>
+            </div>
+          </div>
+          <div class="col lacteos">
+            <div class="card">
+              <img src="img/yoguGriego.webp" class="card-img-top imagenes" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Mantequilla</h5>
+                <p class="card-text">Precio:</p>
+              </div>
+            </div>
+          </div>
+          <!-- fin lacteos -->
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col Frutas">
+            <div class="card">
+              <img src="img/manzana.jpg" class="card-img-top imagenes" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Manzana</h5>
+                <p class="card-text">Precio:</p>
+              </div>
+            </div>
+          </div>
+          <div class="col frutas">
+            <div class="card">
+              <img src="img/platano.jpg" class="card-img-top imagenes" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Platano</h5>
+                <p class="card-text">Precio:</p>
+              </div>
+            </div>
+          </div>
+          <div class="col frutas">
+            <div class="card">
+              <img src="img/tomate.jpg" class="card-img-top imagenes" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Tomate</h5>
+                <p class="card-text">Precio:</p>
+              </div>
+            </div>
+          </div>
+          <div class="col frutas">
+            <div class="card">
+              <img src="img/palta.webp" class="card-img-top imagenes" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Palta</h5>
+                <p class="card-text">Precio:</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fin Verduras -->
+          <!-- Carnes -->
+          <div class="col carnes">
+            <div class="card">
+              <img
+                src="img/carne-molida.webp"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Carne Molida</h5>
+                <p class="card-text">Precio:</p>
+              </div>
+            </div>
+          </div>
+          <div class="col carnes">
+            <div class="card">
+              <img src="img/pollo.webp" class="card-img-top imagenes" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Pollo</h5>
+                <p class="card-text">Precio:</p>
+              </div>
+            </div>
+          </div>
+       
+        <!-- lacteos -->
+        <div class="col lacteos">
+          <div class="card">
+            <img src="img/manjarate.webp" class="card-img-top imagenes" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Leche</h5>
+              <p class="card-text">Precio:</p>
+            </div>
+          </div>
+        </div>
+        <div class="col lacteos">
+          <div class="card">
+            <img src="img/milo.webp" class="card-img-top imagenes" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Leche de Chocolate</h5>
+              <p class="card-text">Precio:</p>
+            </div>
+          </div>
+        </div>
+        <div class="col lacteos">
+          <div class="card">
+            <img src="img/yoguGriego.webp" class="card-img-top imagenes" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Mantequilla</h5>
+              <p class="card-text">Precio:</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- fin lacteos -->
+         
+      </div>
+        <!-- FIN IMAGENES row2-->
+      </section>
+      <section>
+        <!-- CONTACTO -->
+        <h2>Contactanos</h2>
+        <div class="formulario">
+          <form class="container alert alert-info contacto">
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input
+                type="email"
+                class="form-control"
+                id="nombre"
+                placeholder=" "
+              />
+            </div>
+            <div class="mb-3">
+              <label for="mensaje" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="mensaje" rows="3"></textarea>
+            </div>
+            <button type="button" class="btn btn-primary" id="boton">
+              Enviar
+            </button>
+          </form>
+        </div>
+        <!-- FIN CONTACTO -->
+      </section>
+    </main>
+
+    <aside>
+      <!-- Contenido relacionado o secundario -->
+    </aside>
+
+    <footer>
+      <!-- Pie de página -->
+      <p>&copy; 2024 Creado por Natassja Jaramillo</p>
+    </footer> 
+    <script src="js/app.js"></script>
+    <script src="js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
