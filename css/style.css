@@ -146,3 +146,24 @@
   background: #2ecc71 !important;
 }
 
+h2 {
+  text-align: center;
+  padding: 20px;
+}
+.card {
+  width: 100%;
+  height: 100%;
+}
+.contacto {
+  background: green;
+} 
+.imagenes:hover {
+  transform: scale(1.2); /* Ajusta el valor para el nivel de zoom deseado */
+}
+.row {
+  padding: 10px;
+}
+
+img {
+  border-radius: 15px !important;
+}
